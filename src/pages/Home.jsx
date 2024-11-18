@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import Navbar from "@/components/navbar";
 import { ArrowUpRight } from "lucide-react";
 import { useEffect, useRef } from "react";
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className="row-span-2 col-start-1 row-start-4 bg-fuchsia-300 rounded-[15px]"></div>
             <div className="row-span-2 col-start-2 row-start-4 bg-lime-300 rounded-[15px]"></div>
-            <div className="col-span-2 row-span-5 col-start-3 row-start-1 bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('public/images/landing-page-first-image.jpg')] bg-center bg-no-repeat bg-cover rounded-[15px] max-md:h-[20vh]"></div>
+            <div className="col-span-2 row-span-5 col-start-3 row-start-1 bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/public/images/landing-page-first-image.jpg')] bg-center bg-no-repeat bg-cover rounded-[15px] max-md:h-[20vh]"></div>
           </div>
         </section>
 
