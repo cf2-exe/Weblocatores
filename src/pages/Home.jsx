@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import EmblaCarousel from "@/components/ui/carousel";
+import ClothesDisplay from "@/components/ProductCard";
 
 export default function Home() {
   const scrollRef = useRef(null);
@@ -71,6 +72,7 @@ export default function Home() {
     { id: 1, content: 'Slide 1 Content' },
     { id: 2, content: 'Slide 2 Content' },
     { id: 3, content: 'Slide 3 Content' },
+    { id: 4, content: 'Slide 3 Content' },
   ];
 
   const options = {
@@ -98,8 +100,46 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="h-[80vh] px-4 flex flex-col gap-[5rem] items-center overflow-clip">
+        <section className="pb-[2rem] px-4 flex flex-col gap-[5rem] items-center overflow-clip">
             <EmblaCarousel slides={slides} options={options} ></EmblaCarousel>
+            <div className="flex flex-col gap-[2rem]">
+              <h1 className="text-[3rem]">Shop pants</h1>
+              <div className="grid grid-cols-5 gap-[1rem]">
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay> 
+              </div>
+              
+            </div>
+
+            <div className="flex flex-col gap-[2rem]">
+              <h1 className="text-[3rem]">Shop Hoodies</h1>
+              <div className="grid grid-cols-5 gap-[1rem]">
+               <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay> 
+              </div>
+              
+            </div>
+
+            <div className="flex flex-col gap-[2rem]">
+              <h1 className="text-[3rem]">Shop Vests</h1>
+              <div className="grid grid-cols-5 gap-[1rem]">
+               <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay>
+              <ClothesDisplay></ClothesDisplay> 
+              </div>
+              
+            </div>
+
+            
+            
         </section>
       </div>
 

@@ -54,7 +54,7 @@ const Embla = styled.div`
   margin: auto;
   --slide-height: 40rem;
   --slide-spacing: 1rem;
-  --slide-size: 70%;
+  --slide-size: 85%;
 
   .embla__viewport {
     overflow: hidden;
@@ -64,8 +64,7 @@ const Embla = styled.div`
     display: flex;
     touch-action: pan-y pinch-zoom;
     margin-left: calc(var(--slide-spacing) * -1);
-    /* transition: transform 0.3s ease-in-out; Add smooth transitions for the sliding effect */
-    width: 90vw;
+    width: 95vw;
   }
 
   .embla__slide {
@@ -73,8 +72,9 @@ const Embla = styled.div`
     flex: 0 0 var(--slide-size);
     min-width: 0;
     padding-left: var(--slide-spacing);
-    background-color: #868686;
+    background-color: #1e1e1e;
     margin-left: 1rem;
+    border-radius: 25px;
   }
 
   .embla__slide__number {
@@ -87,6 +87,7 @@ const Embla = styled.div`
     justify-content: center;
     height: var(--slide-height);
     user-select: none;
+    color: white;
   }
 `;
 
