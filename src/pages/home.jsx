@@ -54,7 +54,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="h-full col-span-12 bg-[url('/LandingImage.jpg')] bg-center bg-cover bg-no-repeat"></div>
+            <div className="h-full col-span-12 bg-center bg-cover bg-no-repeat"></div>
           </div>
         </section>
       </div>
