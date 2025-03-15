@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 export default function Pricing() {
   return (
     <>
-      <section className="h-fit my-[2rem] w-full flex items-center justify-center px-12 max-md:px-4 gap-4 max-lg:flex-col">
+      <section className="h-fit my-[2rem] w-full flex items-center justify-center px-12 max-md:px-4 gap-4 max-lg:flex-col mt-[5rem]">
         <div className="p-4 h-fit flex flex-col gap-8 border border-[#eee] rounded-[10px] bg-[#f9fbfc]">
           <h1 className="text-[1.5rem] font-[500] text-[#2563EB]">Basic</h1>
           <div className="flex items-end gap-2">
@@ -49,7 +49,7 @@ export default function Pricing() {
           </ul>
         </div>
 
-        <div className="p-10 h-fit flex flex-col gap-8 border bg-[#1e1e1e] text-white border-[#eee] rounded-[10px]">
+        <div className="p-10 h-fit flex flex-col gap-8 border bg-[#000] text-white border-[#eee] rounded-[10px]">
           <h1 className="text-[1.5rem] font-[500] text-[#5d8df5]">Standard</h1>
           <div className="flex items-end gap-2">
             <h1 className="text-[3rem] font-[600]">$1,500 - $5,000</h1>

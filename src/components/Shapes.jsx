@@ -2,7 +2,7 @@ import { Coolshape } from "coolshapes-react";
 
 export const Misc_3 = (props) => (
   <svg
-    className="coolshapes misc-3 absolute bottom-0 left-0"
+    className="coolshapes misc-3 absolute top-0 right-0"
     height="100"
     width="100"
     fill="none"
@@ -112,9 +112,9 @@ export const Misc_3 = (props) => (
 
 export const Flower_2 = (props) => (
   <svg
-    className="coolshapes flower-2 absolute right-0"
-    height="200"
-    width="200"
+    className="coolshapes flower-2 absolute right-5 top-5"
+    height="100"
+    width="100"
     fill="none"
     viewBox="0 0 200 200"
     xmlns="http://www.w3.org/2000/svg"
@@ -201,6 +201,144 @@ export const Flower_2 = (props) => (
       <filter
         height="100%"
         id="cs_noise_1_flower-2"
+        width="100%"
+        x="0%"
+        y="0%"
+        filterUnits="objectBoundingBox"
+      >
+        <feBlend result="out3" in="SourceGraphic" in2="out2" />
+      </filter>
+    </defs>
+    {/* <div className="h-full p-8 flex flex-col items-center gap-[3rem] max-md:p-0">
+            <h1 className="text-[5rem] font-[600] tracking-tight leading-18 max-md:text-[2.5rem] max-md:leading-10 max-md:pl-2 max-md:text-center">
+              Check our previous projects
+            </h1>
+            <div className="w-full flex flex-col gap-[1rem]">
+              <div className="overflow-hidden relative w-full">
+                <div
+                  className="flex transition-transform duration-500 ease-in-out"
+                  style={{ transform: `translateX(-${Current * 100}%)` }}
+                >
+                  {slides.map((slide, index) => (
+                    <div
+                      key={index}
+                      className="w-full flex-shrink-0 h-[50vh] [background:_radial-gradient(circle_at_12.3%_19.3%,_rgb(85,_88,_218)_0%,_rgb(95,_209,_249)_100.2%);] text-white flex items-center justify-center text-4xl"
+                    >
+                      {slide}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="flex gap-4 mt-4 pl-2">
+                <button
+                  className="bg-[#1e1e1e] text-white px-4 py-2 rounded-[5px] cursor-pointer"
+                  onClick={prev}
+                >
+                  <ArrowLeft />
+                </button>
+                <button
+                  className="bg-[#1e1e1e] text-white px-4 py-2 rounded-[5px] cursor-pointer"
+                  onClick={next}
+                >
+                  <ArrowRight />
+                </button>
+              </div>
+            </div>
+          </div> */}
+  </svg>
+);
+
+export const Moon_4 = (props) => (
+  <svg
+    className="coolshapes moon-4 absolute right-5 top-5"
+    height="100"
+    width="100"
+    fill="none"
+    viewBox="0 0 200 200"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clipPath="url(#cs_clip_1_moon-4)">
+      <mask
+        height="200"
+        id="cs_mask_1_moon-4"
+        style={{ maskType: "alpha" }}
+        width="200"
+        x="0"
+        y="0"
+        maskUnits="userSpaceOnUse"
+      >
+        <path
+          d="M27 199.999c-17.334-27.301-27-62.937-27-100C0 62.937 9.666 27.301 27 0v199.999zM200 200a100.003 100.003 0 01-100-100A100.003 100.003 0 01200 0v200zM60.29 175.485C70.51 186.396 82.715 194.701 96 200V0C82.716 5.299 70.51 13.604 60.29 24.515 41.535 44.535 31 71.687 31 100c0 28.312 10.536 55.465 29.29 75.485z"
+          fill="#fff"
+        />
+      </mask>
+      <g mask="url(#cs_mask_1_moon-4)">
+        <path d="M200 0H0v200h200V0z" fill="#fff" />
+        <path d="M200 0H0v200h200V0z" fill="url(#paint0_linear_748_4527)" />
+        <g filter="url(#filter0_f_748_4527)">
+          <ellipse
+            cx="117.708"
+            cy="149.343"
+            fill="#FF58E4"
+            rx="92.722"
+            ry="73.064"
+            transform="rotate(-33.875 117.708 149.343)"
+          />
+          <ellipse
+            cx="68.482"
+            cy="38.587"
+            fill="#00F0FF"
+            rx="69.531"
+            ry="47.75"
+            transform="rotate(-26.262 68.482 38.587)"
+          />
+        </g>
+      </g>
+    </g>
+    <g style={{ mixBlendMode: "overlay" }} mask="url(#cs_mask_1_moon-4)">
+      <path
+        d="M200 0H0v200h200V0z"
+        fill="gray"
+        stroke="transparent"
+        filter="url(#cs_noise_1_moon-4)"
+      />
+    </g>
+    <defs>
+      <filter
+        height="403.182"
+        id="filter0_f_748_4527"
+        width="362.189"
+        x="-77.372"
+        y="-94.144"
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood result="BackgroundImageFix" floodOpacity="0" />
+        <feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_748_4527"
+          stdDeviation="40"
+        />
+      </filter>
+      <linearGradient
+        id="paint0_linear_748_4527"
+        gradientUnits="userSpaceOnUse"
+        x1="158.5"
+        x2="29"
+        y1="12.5"
+        y2="200"
+      >
+        <stop stopColor="#0E6FFF" />
+        <stop offset="1" stopColor="#00F0FF" />
+      </linearGradient>
+      <clipPath id="cs_clip_1_moon-4">
+        <path d="M0 0H200V200H0z" fill="#fff" />
+      </clipPath>
+    </defs>
+    <defs>
+      <filter
+        height="100%"
+        id="cs_noise_1_moon-4"
         width="100%"
         x="0%"
         y="0%"
